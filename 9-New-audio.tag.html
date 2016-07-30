@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> New audio tag</title>
+    </head>
+    
+    <body>
+        <!--controls allow the user to control the music (play, pause, volume) rather than the music just playing in the background-->
+        <!--autoplay allows the music to play when the browser finishes loading-->
+        <!--loop allows the music to play again when it finishes.-->
+        <audio controls autoplay loop>
+            <!--type tells you what audio browser they are expecting-->
+            <source src="name_of_file.mp3" type="audio/mpeg" />
+            <!--Not all browser support mp3, so just in case, we can have multiple source src tags-->
+            
+            <!--So in the directory in which this html file exists, we need to not only have the .mp3 file but also the .ogg file-->
+            <source src="name_of_file.ogg" type="audio/mpeg" />
+        </audio>
+    </body>
+</html>
