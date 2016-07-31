@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="40-Creating-a-website-layout-part-7-css.css" />
+        <title>Creating a website layout part 7 on css</title>
+    </head>
+    
+    <body>
+        <!--centering website-->
+        <div class="container">
+            <!--Since header is on all pages, it's good idea to put navigations inside headers. It can also be inside aside-->
+            <header>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" class="logo" alt="logo area"/>
+                <nav class="top_nav">
+                    <ul>
+                        <li> <a href=""> Home </a> </li>
+                        <li> <a href=""> About </a> </li>
+                        <li> <a href=""> Tutorials </a> </li>
+                        <li> <a href=""> Contact </a> </li>
+                    </ul>
+                </nav>
+                
+                <div class="clear"> </div>
+            </header>
+            
+            <section class="left_side">
+                <!--Inside section-tags, we put article-tags to put contents of our webpage-->
+                <article>
+                    <!--This header is inside article, so it's not the page as the headers on top of our webpage-->
+                    <header>
+                        <h2> This is an article header! </h2>
+                        <h3> This is a sub header! </h3>                    
+                    </header>
+                    
+                    <p>This is paragraph 1 </p>
+                    <p>This is paragraph 2 </p>
+                    <p>This is paragraph 3 </p>
+                    
+                    <!--This footer tag is inside article-tags, so it is not the same as the footer-tags at the bottom of the page-->
+                    <footer>
+                        Written by Taka S.
+                    </footer>
+                </article>
+            </section>
+        
+            <aside class="right_side">
+                <div>
+                    <h2> Social links </h2>
+                    <ul>
+                        <li> <a href=""> Facebook </a></li>
+                        <li> <a href=""> Twitter </a></li>
+                        <li> <a href=""> Instagram </a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h2> Related articles</h2>
+                    <article>
+                        <header>
+                            <h3> This can be a heading for another story </h3>                    
+                        </header>
+                        <p> Get interected and click below to see more</p>
+                        <footer>
+                            <a href=""> See More </a>                      
+                        </footer>
+                    </article>
+                </div>
+            </aside>
+            
+            <footer class="page_footer">
+                &copy; Copywrite logo.com
+            </footer>
+        </div>
+    </body>
+</html>

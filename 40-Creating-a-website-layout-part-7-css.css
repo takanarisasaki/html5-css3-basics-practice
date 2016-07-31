@@ -1,0 +1,93 @@
+/*get rid of default padding and margin because different browsers may have different defaults.*/
+
+/*Select all elemets on webpage*/
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none;
+}
+
+header,nav,article,section,aside,footer {
+    /*All the browsers will display these elements as block-level elements*/
+    display: block;
+}
+
+/*Centering website*/
+.container {
+    width: 1000px;
+    /*margin of 0px on top and botoom, auto on right and left*/
+    margin:0px auto;
+}
+
+.clear {
+    clear: both;
+}
+
+/*I want the navigation to appear next to the logo and not underneath.*/
+.logo {
+    height: 100px;
+    width: 232px; 
+    float: left;
+}
+
+.top_nav {
+    float: left;
+    /*Now, I need to figure out how much space do I have for my navigation since we gave to our website a total width of 1000px*/
+    /*I have the logo taking up the width of 232px*/
+    width: 768px; /*1000px-232px=768px*/
+    
+}
+
+/*We want the navigation link to appear not on top of each other but next to each other*/
+.top_nav ul li {
+    /*You can do this way or*/
+    /*display: inline-block;*/
+    
+    float: left;
+    padding: 35px 20px;
+}
+
+
+/*Now let's get the section and aside floating next to each other*/
+/*Remember, we gave the total width of container to be 1000px, so .left_side and .right_side should should not be more than 1000px*/
+.left_side {
+    float: left;
+    /*There is another way to work around this*/
+    /*
+    width: 676px;
+    border: 2px solid red;
+    margin-right: 10px;
+    padding:5px;
+    */
+    /*We will just leave the width at 700px for left_side and 300px for right_side*/
+    width: 700px;
+}
+
+.right_side {
+    float: left;
+    /*
+    width: 296px;
+    border: 2px solid blue;
+    */
+
+    width: 300px;
+}
+
+/*This is what we can do with the left_side and right_side*/
+.left_side article {
+    border: 2px solid red;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.right_side div {
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+}
+
+/*Make foter clear flated elements*/
+.page_footer {
+    clear: both;
+    text-align: center;
+}

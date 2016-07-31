@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="43-Styling-tables.css" />
+        <title> Styling Tables </title>
+    </head>
+    
+    <body>
+        <table border="1">
+            <!--caption-tags can only be used inside table-->
+            <!--Though if I want to make the title of the table part of the table, you don't use caption-tags.-->
+            <caption> Best selling games worldwide according to Wikipedia </caption>
+            <!--tr-tags are table row-->
+            <!--First row of tables often contains the header of the table-->
+            <thead>
+                <tr>
+                <!--th-tags are headers of a table-->
+                <!--This is an example of rowspan, though in this case, it is better to use colspan-tags-->
+                <!--<td rowspan="5"> Best selling games worldwide according to Wikipedia </td>-->
+                    <th> Rank </th>
+                    <th> Title </th>
+                    <th> Release year </th>
+                    <th> Copies sold </th>
+                </tr>
+            </thead>
+            <!--Starting 2nd row of table, we can put data-->
+            <tbody>
+                <tr>
+                    <!--td-tags are table data-->
+                    <td> 1 </td>
+                    <td> Tetris </td>
+                    <td> 1984 </td>
+                    <td> 143 million </td>
+                </tr>
+                <tr>
+                    <!--td-tags are table data-->
+                    <td> 2 </td>
+                    <td> Wii Sports </td>
+                    <td> 2006 </td>
+                    <td> 81.99 million </td>
+                </tr>
+                <tr>
+                    <!--td-tags are table data-->
+                    <td> 3 </td>
+                    <td> Minecraft </td>
+                    <td> 2009 </td>
+                    <td> 49.5 million </td>
+                </tr>
+                <tr>
+                    <!--td-tags are table data-->
+                    <td> 4 </td>
+                    <td> Super Mario Bros </td>
+                    <td> 1985 </td>
+                    <td> 33.53 million </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4"> Info from Wikipedia </td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

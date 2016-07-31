@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Creating a website layout part 2 on section</title>
+    </head>
+    
+    <body>
+        <!--Since header is on all pages, it's good idea to put navigations inside headers. It can also be inside aside-->
+        <header>
+            <img src="http://vignette3.wikia.nocookie.net/uncyclopedia/images/4/4c/Striped_apple_logo.png/revision/latest?cb=20090104011038" alt="logo area" width="80" height="80"/>
+            <nav>
+                <ul>
+                    <li> <a href=""> Home </a> </li>
+                    <li> <a href=""> About </a> </li>
+                    <li> <a href=""> Tutorials </a> </li>
+                    <li> <a href=""> Contact </a> </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section>
+            <!--Inside section-tags, we put article-tags to put contents of our webpage-->
+            <article>
+                <!--This header is inside article, so it's not the page as the headers on top of our webpage-->
+                <header>
+                    <h2> This is an article header! </h2>
+                    <h3> This is a sub header! </h3>                    
+                </header>
+                
+                <p>This is paragraph 1 </p>
+                <p>This is paragraph 2 </p>
+                <p>This is paragraph 3 </p>
+                
+                <!--This footer tag is inside article-tags, so it is not the same as the footer-tags at the bottom of the page-->
+                <footer>
+                    Written by Taka S.
+                </footer>
+            </article>
+        </section>
+    
+        <aside>
+            
+        </aside>
+        
+        <footer>
+            &copy; Copywrite apple.com
+        </footer>
+    </body>
+</html>

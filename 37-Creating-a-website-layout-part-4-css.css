@@ -1,0 +1,21 @@
+/*get rid of default padding and margin because different browsers may have different defaults.*/
+
+/*Select all elemets on webpage*/
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none;
+}
+
+header,nav,article,section,aside, footer {
+    /*All the browsers will display these elements as block-level elements*/
+    display: block;
+}
+
+/*Centering website*/
+.container {
+    width: 1000px;
+    /*margin of 0px on top and botoom, auto on right and left*/
+    margin:0px auto;
+    border: 2px solid black;
+}

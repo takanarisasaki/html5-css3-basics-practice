@@ -1,0 +1,48 @@
+/*get rid of default padding and margin because different browsers may have different defaults.*/
+
+/*Select all elemets on webpage*/
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none;
+}
+
+header,nav,article,section,aside,footer {
+    /*All the browsers will display these elements as block-level elements*/
+    display: block;
+}
+
+/*Centering website*/
+.container {
+    width: 1000px;
+    /*margin of 0px on top and botoom, auto on right and left*/
+    margin:0px auto;
+}
+
+.clear {
+    clear: both;
+}
+
+/*I want the navigation to appear next to the logo and not underneath.*/
+.logo {
+    height: 100px;
+    width: 232px; 
+    float: left;
+}
+
+.top_nav {
+    float: left;
+    /*Now, I need to figure out how much space do I have for my navigation since we gave to our website a total width of 1000px*/
+    /*I have the logo taking up the width of 232px*/
+    width: 768px; /*1000px-232px=768px*/
+    
+}
+
+/*We want the navigation link to appear not on top of each other but next to each other*/
+.top_nav ul li {
+    /*You can do this way or*/
+    /*display: inline-block;*/
+    
+    float: left;
+    padding: 35px 20px;
+}
