@@ -1,0 +1,15 @@
+.rounded_box {
+    background-color: orange;
+    width: 200px;
+    text-align: center;
+    padding: 50px 0px;
+
+    border-radius: 50px;
+    
+    /*
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+    */
+}

@@ -1,0 +1,11 @@
+.rounded_box {
+    width: 200px;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 30px;
+    background-color: #0299EF;
+    
+    /*dark blue starting from bottom and becomes lighter at top*/
+    /*50% means that color will go 50% up*/
+    background-image: linear-gradient(to top, #04507b 50%, #0072b4, #018ad9, #00a2ff);
+}

@@ -1,0 +1,24 @@
+/*
+#parent p:nth-child(even) {
+    color: blue;
+}
+
+#parent p:nth-child(odd) {
+    color: white;
+}
+*/
+
+/*Select every 2 elements*/
+#parent p:nth-child(2n) {
+    color: green;
+}
+
+/*Select every 5 elements*/
+#parent p:nth-child(5n) {
+    color: blue;
+}
+
+/*Only select element at n*/
+#parent p:nth-child(1) {
+    color: orange;
+}

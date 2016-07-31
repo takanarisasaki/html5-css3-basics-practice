@@ -1,0 +1,24 @@
+/*Whenever we style links on our webpage, we make use of 4 different classes*/
+
+/*Normal link that has never been clicked*/
+a {
+   color: black;
+   text-decoration: none;    /*not underlined */
+}
+
+/*while your mouse is hovering your link*/
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/*state while you are clicking down on the actual link*/
+a:active {
+    color: orange;
+}
+
+/*state at which the link has already been visited*/
+a:visited {
+    color: purple;
+    text-decoration: none;
+}

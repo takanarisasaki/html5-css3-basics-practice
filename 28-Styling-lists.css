@@ -1,0 +1,22 @@
+/*change the bullet point into something else*/
+/*list-style-type: disc, circle, square, decimal, lower-greek, katakana*/
+/*By default, it is on disc (bullet point)*/
+ul {
+    list-style-type: katakana;
+}
+
+
+/*need to use small image, or else the browser might not show it*/
+/*
+ul {
+    list-style-image: url(http://some-small-image.png);
+    line-height: 600%
+}
+*/
+
+/*make the dot appear inside the text. By default, it is outside
+/*
+ul {
+    list-style-position: inside;
+}
+*/
