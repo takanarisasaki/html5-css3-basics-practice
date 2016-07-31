@@ -1,0 +1,10 @@
+/*float the image on the left side; text on right side*/
+.pic {
+    float: left;
+}
+
+/*paragraph that was on the side of the image appears beneath by using clear*/
+/*clear: left, right, both*/
+.para2 {
+    clear: both;
+}
