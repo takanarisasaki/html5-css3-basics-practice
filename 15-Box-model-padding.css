@@ -1,0 +1,23 @@
+/*There are two ways to write */
+
+/*
+h1 {
+    background-color: yellow;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:10px;
+}
+*/
+
+h1 {
+    background-color: yellow;
+    padding:10px 10px 20px 20px; /*top right bottom left */ 
+}
+
+/*
+h1 {
+    background-color: yellow;
+    padding:10px 40px; /*top-bottom right-left  
+}
+*/

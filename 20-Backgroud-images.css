@@ -1,0 +1,30 @@
+/*width: 100% means it is going to take as much width space as possible*/
+
+div {
+    height: 1000px;
+    width: 100%;
+    background: orange;
+    /*Enter the url of the image inside url()*/
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png);
+    /*If the image repeats, it makes the image not repeat*/
+    background-repeat: no-repeat;
+    /*repeat the image on that axix
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    */
+    
+    /*position the image at the center of div*/
+    background-position: center;
+    /*
+    background-position: center top;
+    */
+    
+    /*Makes the image not move even if you scroll down the page*/
+    background-attachment: fixed;
+    
+}
+
+/*
+Our browser has 3 layers: background-color, background-image, and content.
+*/
+

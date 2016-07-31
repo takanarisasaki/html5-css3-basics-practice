@@ -1,0 +1,9 @@
+/*
+font-family is how the text is written. font should exist in our pc.
+font-weight is whether the text is bold or not
+*/
+
+p {
+    font-family: Arial;
+    font-weight: bold;
+}

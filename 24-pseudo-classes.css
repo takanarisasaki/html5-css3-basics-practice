@@ -1,0 +1,15 @@
+/*Append a class on what you want to select*/
+
+/*first-letter changes the first letter of each p*/
+.firstLetter:first-letter {
+    color:blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*first-line changes */
+.firstLine:first-line {
+    color:blue;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,24 @@
+/*Only change the first child of the parent p*/
+#parent p:first-child {
+    color: red;
+    text-decoration: underline;
+}
+
+/*Only change the last child of the parent p*/
+#parent p:last-child {
+    color: blue;
+    text-decoration: overline;
+}
+
+/*To all p, add the content before the text in p */
+#parent p:before {
+    content: "I am before";
+    color: purple;
+}
+
+/*To all p, add the content after the text in p */
+#parent p:after {
+    content: "I am after";
+    color: orange;
+}
+

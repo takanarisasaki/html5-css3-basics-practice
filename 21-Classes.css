@@ -1,0 +1,13 @@
+/*A dot is used to tell the html that we're going to use a class*/
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}

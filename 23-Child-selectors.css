@@ -1,0 +1,10 @@
+/*ALL p with div parent will be selected*/
+/*If used selected p without div, all p would have changed*/
+
+.red p {
+    color: red;
+}
+
+.blue p {
+    color: blue;
+}

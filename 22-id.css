@@ -1,0 +1,14 @@
+/*Hash-tag # is used to tell html that we are using an ID*/
+
+#blue {
+    color: blue;
+}
+
+#red {
+    color: red;
+}
+
+#yellow {
+    color: yellow;
+    background-color: black;
+}
