@@ -1,0 +1,31 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> Select lists </title>
+    </head>
+    
+    <body>
+        <form action="" method="GET">
+            
+            Pick a food:
+            <!--select has attributes: name, multiple, size which is related to multiple-->
+            <!--multiple allows to show more than one options, and size defines that number of options to show-->
+            <select name="food" multiple size="3">
+                <!--optgroup will show the label that defines the option before showing the list of option-->
+                <optgroup label="salty food">
+                    <!--option has a value attribute-->
+                    <option value="potato_chips"> Potato chips</option>
+                    <option value="popcorn"> Popcorn</option>
+                    <!--selected is the way to give a default value-->
+                    <option value="peanuts" selected="selected"> Peanuts</option> 
+                </optgroup>
+                <optgroup label="hot food">
+                    <option value="Nachos"> Nachos </option>
+                    <option value="Pizza"> Pizza </option>
+                </optgroup>
+            </select>
+            
+        </form>
+    </body>
+</html>

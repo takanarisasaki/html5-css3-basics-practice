@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> Labels and fieldsets </title>
+    </head>
+    
+    <body>
+        <form action="" method="GET">
+            <!--fieldset makes a border all around what's inside-->
+            <fieldset>
+                <!--legent is like header-->
+                <!--label-tags are useful for styling later on-->
+                <legend> Personal info: </legend>
+                <!--for will link our label to whatever element this label was meant to link to-->
+                <label for="first_name"> First name: </label> <input type="text" name="first_name" id="first_name" /> <br/>
+                <label for="last_name"> Last name: </label> <input type="text" name="last_name" id="last_name" /> <br/> <br/>
+            </fieldset>
+            
+            <fieldset>
+                <legend> Hobbies: </legend>
+                <label for="sport"> Sport </label> <input type="checkbox" name="sport" value="sport" id="sport" />
+                <label for="gaming"> Gaming </label> <input type="checkbox" name="gaming" value="gaming" id="gaming"/>
+                <label for="art"> Art </label> <input type="checkbox" name="art" value="art" id="art" />
+                <label for="acting"> Acting </label> <input type="checkbox" name="acting" value="acting" id="acting"/>
+            </fieldset>
+            
+            <br/>
+            <input type="submit" value="submit" />
+            
+        </form>
+    </body>
+</html>

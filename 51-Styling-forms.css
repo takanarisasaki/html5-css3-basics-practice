@@ -1,0 +1,14 @@
+.personal_info label {
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+
+fieldset {
+    width: 280px;
+    background-color: #81d4fa;
+}
+
+fieldset legend {
+    font-weight: bold;
+}
